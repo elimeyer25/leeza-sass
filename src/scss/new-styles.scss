@@ -1,0 +1,25 @@
+$primary-color: rgb(0, 255, 191);
+$secondary-color: rgb(119, 0, 255);
+
+@import 'reset';
+@import 'base';
+@import 'nav';
+@import 'content';
+
+.content p,
+.content ul, 
+.content ol,
+.content li {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4, 
+.content h5,
+.content h6 {
+  font-size: 3rem;
+}
+
